@@ -1,0 +1,19 @@
+﻿                  Summary
+
+
+Model used – Keras model
+
+Accuracy – 70.46%
+
+Few important analysis and actionable insights steps are-
+
+
+1) Eradicated duplicate data based on review_description column.
+
+2) There's a significant correlation between the cost of wine and its rating.
+
+3) Top three wines according to price are from France.
+
+4) After removing all countries with less than 100 observations, it appears that Germany, Austria, and Canada have the highest median scores(points).
+
+5) I'll be dropping any wine types with less than 200 observations, for the reason that I don't believe there's enough data in these buckets to generate an accuarte model for predicting their respective wine type.
